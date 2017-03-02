@@ -318,3 +318,7 @@ Assuming you created your Docker Hub account, now it's time to tag and push the 
 `docker tag my-apache-php <dockerhubusername>/<name-of-image>`
 
 ![](images/docker-tag.png)
+
+Next you need to login using the `docker login` command, then execute `docker push <dockerhubusername>/<name-of-image>`:
+
+![](images/docker-tag.png)
